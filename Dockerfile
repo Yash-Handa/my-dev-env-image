@@ -18,9 +18,8 @@ RUN apt-get update \
 	neovim=0.4.3-3 \
 	nano=4.8-1ubuntu1 \
 	less=551-1ubuntu0.1 \
-	curl=7.68.0-1ubuntu2.2
-
-RUN apt-get -y install git
+	curl=7.68.0-1ubuntu2.2 \
+	git=1:2.25.1-1ubuntu3
 
 FROM base AS home
 
